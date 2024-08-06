@@ -1,0 +1,101 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* banner section start */
+    .banner {
+        padding: 50px 0 80px;
+    }
+    .carrosol_img img {
+        width: 100%;
+        padding: 0 40px 40px;
+    }
+    .carrosol_tex h2 {
+        font-size: 22px;
+    }
+    .carrosol_tex {
+        padding: 0px 28px 0;
+        text-align: center;
+    }
+    .c-indicator {
+        top: 102%;
+    }
+     /* feature section start */
+     .work {
+        margin: 50px 0 0;
+    }
+    .work_img i {
+        font-size: 35px;
+        margin-right: 15px;
+    }
+    .footer ul li a i {
+        margin-left: 16px;
+    }
+    .hg {
+        padding: 50px 0 50px;
+    }
+    .f_conntruct {
+        padding: 25px 0 0;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /* banner section start */
+     .banner {
+        padding: 50px 0 80px;
+    }
+     .carrosol_img img {
+        width: 100%;
+        padding: 0 80px 49px;
+    }
+    .carrosol_tex {
+        padding: 0px 37px 0;
+        text-align: center;
+    }
+    .c-indicator {
+        top: 102%;
+    }
+    /* feature section start */
+    .work {
+        margin: 50px 0 0;
+    }
+    .work_img i {
+        font-size: 35px;
+        margin-right: 15px;
+    }
+    .f_conntruct {
+        padding: 25px 0 0;
+    }
+    
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* banner section start */
+    .text-center {
+        padding: 0 25px;
+    }
+    /* feature section start */
+    .work_img i {
+        font-size: 40px;
+        margin-right: 20px;
+    }
+    /* footer section start   */
+    .f_text h1 {
+        font-size: 25px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* footer section start   */
+    .f_text h1 {
+        font-size: 25px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+ /* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {}
